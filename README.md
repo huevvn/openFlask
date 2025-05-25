@@ -33,7 +33,7 @@ openFlask/
 ├── server.py # Flask API server  
 ├── requirements.txt # Python dependencies  
 ├── output/ # Output folder for generated files  
-└── OpenManus # Cloned OpenManus repo (required for execution)
+└── OpenManus/ # Cloned OpenManus repo (required for execution)
 
 ---
 
@@ -90,12 +90,6 @@ curl -X POST http://localhost:5000/process \
   "success": true
 }
 ```
-
----
-
-## 🧠 Context
-
-This openFlask module is part of Platform-IO, a hackathon project enabling users to perform system actions through natural language and handwriting-based AI interfaces.
 
 ---
 
